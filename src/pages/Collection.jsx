@@ -16,7 +16,7 @@ import { ArrowDropDown, ArrowDropUp } from "@mui/icons-material";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useNavigate } from "react-router-dom";
-import SearchBar from "../components/SearchBAr";
+import SearchBar from "../components/SearchBar";
 
 const Collection = () => {
   const { products } = useContext(ShopContext);
